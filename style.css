@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    font-family: 'Rubik';
+    width: 730px;
+    height: 896px;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 167px;
+    width: 730px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 167px;
+    width: 730px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 20px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 167px;
+    width: 642px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 20px;
+}
+
+.card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 167px;
+    width: 642px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 24px;
+}
+
+.cardcontainer {
+    /* background-color: green; */
+    align-self: flex-end;
+}
+
+
+.card-left-wrapper {
+    /* background-color: red; */
+    height: 100%;
+    width: 48px;
+    display: flex;
+}
+
+.card-right-wrapper {
+    height: 100%;
+    width: 618px;
+    /* margin-top: 15px; */
+    /* background-color: blue; */
+}
+
+.plus-minus-card {
+    height: 100px;
+    width: 40px;
+    border-radius: 10px;
+    background: #F5F6FA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-top-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: green;9 */
+    margin-bottom: 15px;
+}
+
+.image-name-date-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: beige;
+    margin-right: 16px;
+}
+
+.name {
+    margin-right: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334253;
+
+}
+
+.date {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #67727E;
+}
+
+.reply-button {
+    height: 24px;
+    width: 66px;
+    text-align: right;
+}
+
+.card-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #67727E;
+}
+
+
+.plus {
+    color: #C5C6EF;
+}
+
+.number {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #5357B6;
+}
+
+.minus {
+    color: #C5C6EF;
+}
